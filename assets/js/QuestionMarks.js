@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const background = document.getElementById('background');
     const numberOfMarks = 50; // Aanpasbaar naar wens voor minder/meer drukte
-    const maxWidth = window.innerWidth;
-    const maxHeight = window.innerHeight;
+    const maxWidth = window.innerWidth - 40;
+    const maxHeight = window.innerHeight - 50;
 
     for (let i = 0; i < numberOfMarks; i++) {
         const mark = document.createElement('div');
