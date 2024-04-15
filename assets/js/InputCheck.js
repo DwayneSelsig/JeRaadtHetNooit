@@ -34,4 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messageElement.style.opacity = 1; // Start de fade-in
         });
     }
+
+    var currentYear = new Date().getFullYear(); // Haal het huidige jaar op
+    document.getElementById('current-year').textContent = currentYear; // Zet het huidige jaar in de span
 });
