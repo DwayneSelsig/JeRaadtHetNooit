@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", function() {
     const background = document.getElementById('background');
     const numberOfMarks = 50; // Aanpasbaar naar wens voor minder/meer drukte
@@ -14,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         mark.style.left = `${Math.random() * maxWidth}px`;
         mark.style.top = `${Math.random() * maxHeight}px`;
         mark.style.transform = `rotate(${Math.random() * 360}deg)`;
+        mark.style.zIndex = -1000;
         mark.textContent = '?';
         background.appendChild(mark);
     }
