@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var inputField = document.querySelector('input[name="raden"]');
-    var specialeWoorden = ['geheim', 'verrassing', 'raadsel'].map(woord => woord.toLowerCase());
+    var specialeWoorden = ['geheim', 'verrassing', 'raadsel', 'het'].map(woord => woord.toLowerCase());
     var messageElement = document.getElementById('message');
 
     inputField.focus();
